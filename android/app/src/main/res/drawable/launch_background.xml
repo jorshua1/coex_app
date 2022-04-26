@@ -7,6 +7,6 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/colores-light" />
+            android:src="@mipmap/ic_launcher" />
     </item>
 </layer-list>
