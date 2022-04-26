@@ -11,10 +11,16 @@ class WelcomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
               Text(
-                "holas",
-                style: TextStyle(fontSize: 20),
+                "Bienvenido, Master",
+                style: TextStyle(
+                  fontSize: 25,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: -2,
+                ),
               ),
-              Text("holas")
+              SizedBox(
+                height: 20,
+              ),
             ]),
       ),
     );
